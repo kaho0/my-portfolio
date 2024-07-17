@@ -1,0 +1,278 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif; /* Beautiful font */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Lighter background color */
+}
+
+header {
+  background-color: #2b6777; /* Darker header color */
+  color: #fff;
+  padding: 1.5rem 0; /* Increased padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  font-size: 1.8rem; /* Slightly larger */
+  margin-left: 1.5rem; /* Increased margin */
+  font-weight: 600; /* Bolder font weight */
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem; /* Increased gap */
+  margin: 0;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem; /* Increased padding */
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+  background-color: #52ab98; /* Hover effect */
+}
+
+header .download-cv {
+  margin-right: 1.5rem; /* Increased margin */
+  background-color: #52ab98; /* Darker button color */
+  color: #fff;
+  padding: 0.75rem 1.5rem; /* Increased padding */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+header .download-cv:hover {
+  background-color: #3b8b7a; /* Hover effect */
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem; /* Increased padding */
+  background-color: #a9d6e5; /* Lighter hero background color */
+  border-bottom: 2px solid #2b6777; /* Added border for design */
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1,
+.hero-content h2 {
+  margin: 0;
+  color: #333;
+}
+
+.hero-content h2 span {
+  color: #52ab98;
+}
+
+.hero-content p {
+  margin: 1.5rem 0; /* Increased margin */
+  color: #555;
+}
+
+.hero-content .buttons {
+  margin-top: 1.5rem; /* Added margin */
+}
+
+.hero-content .buttons a {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 1rem; /* Added margin for spacing */
+  padding: 0.75rem 1.5rem; /* Increased padding */
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.hero-content .portfolio-btn {
+  background-color: #52ab98; /* Darker button color */
+}
+
+.hero-content .hire-me-btn {
+  background-color: #2b6777; /* Darker button color */
+}
+
+.hero-content .portfolio-btn:hover,
+.hero-content .hire-me-btn:hover {
+  opacity: 0.9; /* Hover effect */
+}
+
+.hero-content .social-links a {
+  margin-right: 0.5rem;
+  text-decoration: none;
+  color: #52ab98;
+  transition: color 0.3s;
+}
+
+.hero-content .social-links a:hover {
+  color: #2b6777; /* Hover effect */
+}
+
+.hero-image img {
+  max-width: 60%; /* Make the photo smaller */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for design */
+}
+
+.skills ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem; /* Increased padding */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul li {
+  background-color: #52ab98; /* Darker skill badge color */
+  color: #fff;
+  padding: 0.75rem 1.5rem; /* Increased padding */
+  border-radius: 5px;
+}
+
+.about-me,
+.projects,
+.awards,
+.my-portfolio,
+.contact {
+  padding: 3rem; /* Increased padding */
+  background-color: #fff;
+  margin: 2rem 0; /* Increased margin */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.awards .award,
+.projects .project,
+.my-portfolio .portfolio-item {
+  margin-bottom: 1.5rem; /* Increased margin */
+}
+
+.portfolio-categories button {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.75rem 1.5rem; /* Increased padding */
+  background-color: #52ab98; /* Darker button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.portfolio-categories button:hover {
+  background-color: #3b8b7a; /* Hover effect */
+}
+
+.portfolio-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for design */
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Increased gap */
+}
+
+.contact form label {
+  color: #333;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form input[type="file"] {
+  padding: 0.75rem; /* Increased padding */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact form button {
+  padding: 0.75rem; /* Increased padding */
+  background-color: #52ab98; /* Darker button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact form button:hover {
+  background-color: #3b8b7a; /* Hover effect */
+}
+
+footer {
+  background-color: #2b6777; /* Darker footer color */
+  color: #fff;
+  padding: 1.5rem 0; /* Increased padding */
+  text-align: center;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0; /* Increased margin */
+}
+
+footer nav ul li {
+  display: inline;
+  margin: 0 0.5rem;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .social-links a {
+  margin-right: 0.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer p {
+  margin: 0.5rem 0 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image img {
+    max-width: 60%;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 0.75rem; /* Adjusted gap */
+  }
+
+  header nav ul li a {
+    padding: 0.75rem; /* Adjusted padding */
+  }
+}
